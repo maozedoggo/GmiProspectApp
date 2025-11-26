@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eligibility Checker"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:text="Check the subjects you have PASSED. The system will determine which programs you qualify for based on specific grade requirements (Pass, Credit, or Distinction)."
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/cbMath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mathematics" />
+
+        <CheckBox
+            android:id="@+id/cbAddMath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Additional Mathematics" />
+
+        <CheckBox
+            android:id="@+id/cbPhysics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Physics" />
+
+        <CheckBox
+            android:id="@+id/cbChemistry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chemistry" />
+
+        <CheckBox
+            android:id="@+id/cbEnglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="English" />
+
+        <CheckBox
+            android:id="@+id/cbBahasa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bahasa Melayu" />
+
+        <Button
+            android:id="@+id/btnCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Check Eligibility" />
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnApplyOnline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Apply Online"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</ScrollView>
